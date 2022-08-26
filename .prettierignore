@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Outputs
+dist/**/*
+
+# Temp dir
+tmp
+/local-env
+.env
+logs/*
+coverage

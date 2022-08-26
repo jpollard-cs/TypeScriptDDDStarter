@@ -1,0 +1,23 @@
+# this file is just a starting point for testing the dockerfile builds properly
+# it needs more work for proper development environment setup e.g. using ts-node-dev
+# and setting up remote debugging
+version: '3'
+services:
+  api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: "api"
+    depends_on:
+      - db
+    environment:
+      MONGO_DB_URI: mongodb://mongo-db:27017/api?retryWrites=true&w=majority
+      IS_LOCAL: true
+  mongo-db:
+    image: mongo:5.0.6@sha256:546c8306016e24185ef40c3e6f59a1782ee885dc54aa000bfade3dffe0a75d87
+    container_name: "mongo-db"
+    ports:
+      - 27017:27017
+    # volumes:
+    # db init script will be executed immediately and only once when the db container is created
+    # TODO ADD DB SEED SCRIPT IF DESIRED
