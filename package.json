@@ -27,7 +27,7 @@
         "@types/jest": "^28.1.8",
         "@types/lusca": "^1.7.1",
         "@types/luxon": "^2.0.7",
-        "@types/node": "^16.11.11",
+        "@types/node": "^18.7.13",
         "@types/ramda": "^0.27.59",
         "@types/winston": "^2.4.4",
         "@typescript-eslint/eslint-plugin": "^5.5.0",
