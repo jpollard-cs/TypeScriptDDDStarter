@@ -6,18 +6,14 @@
   "configurations": [
     {
       "type": "node",
-      "runtimeVersion": "16.10.0",
+      "runtimeVersion": "16.14.0",
       "request": "launch",
       "name": "Debug TypeScript",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/src/index.ts",
       "console": "integratedTerminal",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }

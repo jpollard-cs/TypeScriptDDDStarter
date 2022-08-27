@@ -10,16 +10,21 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "build": "rm -rf ./dist && tsc -p tsconfig.json",
+    "test": "ts-jest",
+    "lint": "eslint '**/*.js' '**/*.ts' && prettier '**/*.{js,ts,json,md}'",
     "lint:fix": "eslint --fix '**/*.js' '**/*.ts' && prettier --write '**/*.{js,ts,json,md}'"
   },
   "keywords": [],
   "author": "Wiz",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@types/body-parser": "^1.19.2",
     "@types/compression": "^1.7.2",
     "@types/errorhandler": "^1.5.0",
     "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.8",
     "@types/lusca": "^1.7.1",
     "@types/luxon": "^2.0.7",
     "@types/node": "^16.11.11",
@@ -28,7 +33,12 @@
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint": "^8.4.0",
+    "husky": "^8.0.0",
+    "jest": "^29.0.1",
+    "pinst": "^3.0.0",
     "prettier": "^2.5.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1",
     "typescript": "^4.6.3"
   },
   "dependencies": {
@@ -38,6 +48,7 @@
     "errorhandler": "^1.5.1",
     "express": "^4.17.3",
     "express-validator": "^6.14.0",
+    "helmet": "^6.0.0",
     "lusca": "^1.7.0",
     "luxon": "^2.1.1",
     "mongoose": "^6.0.12",

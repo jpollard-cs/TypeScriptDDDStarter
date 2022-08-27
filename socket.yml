@@ -1,0 +1,8 @@
+# enable/disable the Socket.dev GitHub app entirely
+enabled: true
+# enable/disable GitHub app pull request alert checks
+pullRequestAlertsEnabled: true
+# enable/disable Github app project report checks
+projectReportsEnabled: true
+# beta opt in field
+beta: true
