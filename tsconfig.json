@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noUnusedLocals": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "*": ["node_modules/*"]
+        }
+    },
+    "exclude": ["jest.config.*"]
+}
