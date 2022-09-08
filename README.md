@@ -1,4 +1,4 @@
-# TypeScript Express Starter
+# TypeScript DDD Starter
 
 ### COMING SOON
 
