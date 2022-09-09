@@ -39,3 +39,12 @@ docker-compose -f docker-compose.local.yml up
 You _could_ also use the Dockerfile to deploy to production, but it currently requires you have all your secrets in a .env file while you probably want to use a secret store for secrets outside of your local environment. You can generate a .env from your secret store during your build, but even better if you are transiently setting secrets in the context of the cloud task and role under which each instance is operating (so secrets are never persisted to a .env file in your docker image)
 
 Alternatively you can easily deploy to Heroku. Working procfiles are already provided. Heroku has great guides on deploying node applications so I won't go into further details here.
+
+## motivations
+
+the motivations for developing this project are the following
+
+- reduce the friction to starting a new project
+- build a foundation for the next project I will be working on - a secure messaging system for educational institutions using a distributed architecture
+
+## [decisions](/DECISIONS.md)
