@@ -1,5 +1,5 @@
 {
-    "name": "typescript-express-starter",
+    "name": "typescript-ddd-starter",
     "version": "1.0.0",
     "main": "dist/index.js",
     "type": "commonjs",
@@ -15,7 +15,7 @@
         "lint:fix": "eslint --fix '**/*.js' '**/*.ts' && prettier --write '**/*.{js,ts,json,md}'"
     },
     "keywords": [],
-    "author": "Wiz",
+    "author": "jpollard-cs",
     "license": "ISC",
     "devDependencies": {
         "@commitlint/cli": "^17.0.3",
