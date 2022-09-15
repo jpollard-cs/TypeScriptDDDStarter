@@ -34,6 +34,8 @@
   - this gives us less coupling to any particular relational ACID database
   - while ORMs often hinder performance we'll be implementing an administrative API here which won't be on the performance critical path
 - switch to Fastify and Mercurius (this will also require replacing related express middleware) - this gives us benefits of graphql without as significant of a performance hit predicated on the idea that we will use graphql in such a way that we will get significant benefits from graphql-jit. We could use WS or SSE to get an even higher number of ops per second, but we'll prefer a more stateless approach for this server
+- setup a reverse proxy via k8's (TBD if will use with DAPR and how this might affect setup)
+
 ## still to be decided
 
 - functions or aggregate classes and what do they return
@@ -43,3 +45,4 @@
     - domain events (events we want to publish for any interested consumers e.g. in an authz service we might want to notify interested parties when a user has been deleted)
 - ID generation (maybe not as relevant for this part of the system although will be very important for messages and ordering - ideally we use a consistent ID type across entities)
 - come up with an actual name - this is no longer going to be just a "starter" project, but an actual example / real implementation
+- determine if we want to use yarn zero installs (uncomment `.yarn` in `.gitignore` file)

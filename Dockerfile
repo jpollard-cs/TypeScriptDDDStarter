@@ -18,4 +18,4 @@ RUN yarn install --frozen-lockfile \
 RUN yarn global add pm2
 
 # TODO: if integrate with k8 and dapr will we still need pm2?
-CMD ["pm2", "start", "/app/dist/index.js"]
+CMD ["pm2", "start", "/app/dist/app.js"]

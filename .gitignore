@@ -1,5 +1,6 @@
 # Dependency directory
 node_modules
+.yarn/cache
 
 # OS metadata
 .DS_Store
