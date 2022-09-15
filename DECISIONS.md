@@ -33,7 +33,7 @@
 - We'll use the Prisma ORM - while I'm not a huge fan of ORMs (especially the active record pattern) I've heard good things about this ORM and want to give it a try given my preference for something simple like knex doesn't seem to be shared by the majority
   - this gives us less coupling to any particular relational ACID database
   - while ORMs often hinder performance we'll be implementing an administrative API here which won't be on the performance critical path
-- switch to Fastify and Apollo Server (this will also require replacing related express middleware) - this will be done in one change because the coupling between versions of each of these (Apollo Server v4 intends to improve on this, but is not mature enough to adopt yet)
+- switch to Fastify and Mercurius (this will also require replacing related express middleware) - this gives us benefits of graphql without as significant of a performance hit predicated on the idea that we will use graphql in such a way that we will get significant benefits from graphql-jit. We could use WS or SSE to get an even higher number of ops per second, but we'll prefer a more stateless approach for this server
 - setup a reverse proxy via k8's (TBD if will use with DAPR and how this might affect setup)
 
 ## still to be decided
