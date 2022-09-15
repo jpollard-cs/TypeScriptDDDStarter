@@ -7,6 +7,7 @@ Thumbs.db
 
 # Outputs
 dist/**/*
+src/graphql/generated.ts
 
 # Temp dir
 tmp
