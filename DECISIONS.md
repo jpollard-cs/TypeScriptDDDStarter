@@ -25,8 +25,7 @@
   - while I'm sometimes critical of this pattern as persistence concerns somewhat bleed into your application service it's the best way I know of to ensure domain events and changes to aggregates are atomic
   - if the unit of work pattern is being used across aggregates it _may_ be a sign that you need to combine them as generally it's best to keep mutations/commands to affected aggregates 1:1 or you introduce additional complexity
 - transactional outbox pattern
-- functional error handling
-  - https://khalilstemmler.com/articles/enterprise-typescript-nodejs/functional-error-handling/
+- [functional error handling](https://khalilstemmler.com/articles/enterprise-typescript-nodejs/functional-error-handling/)
 - performance testing
 - adopt OPA for policy enforcement (potentially with OPAL, but we won't bother on this initial project)
 - we'll use postgres for now given its familiarity, there are a couple of postgres-compatible solutions such as YugabyteDB or CockroachDB that can scale horizontally
@@ -34,7 +33,7 @@
   - this gives us less coupling to any particular relational ACID database
   - while ORMs often hinder performance we'll be implementing an administrative API here which won't be on the performance critical path
 - switch to Fastify and Mercurius (this will also require replacing related express middleware) - this gives us benefits of graphql without as significant of a performance hit predicated on the idea that we will use graphql in such a way that we will get significant benefits from graphql-jit. We could use WS or SSE to get an even higher number of ops per second, but we'll prefer a more stateless approach for this server
-- setup a reverse proxy via k8's (TBD if will use with DAPR and how this might affect setup)
+- setup k8s and DAPR - this will give us the basics we need to get started without having to introduce a service mesh like Linkerd or Istio - out of the box this gives us a simple way to do service discovery, load balancing (via simple round robin), mTLS and a host of other things like simplified secret store integration
 
 ## still to be decided
 
