@@ -41,7 +41,7 @@
         "@fastify/circuit-breaker": "^3.0.0",
         "@fastify/compress": "^6.1.1",
         "@fastify/helmet": "^10.0.0",
-        "dotenv": "^16.0.1",
+        "dotenv": "^16.0.3",
         "fastify": "^4.8.1",
         "graphql": "^16.6.0",
         "luxon": "^3.0.1",
