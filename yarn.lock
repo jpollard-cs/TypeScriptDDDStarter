@@ -1092,13 +1092,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastify/helmet@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "@fastify/helmet@npm:10.0.0"
+"@fastify/helmet@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "@fastify/helmet@npm:10.0.1"
   dependencies:
     fastify-plugin: ^4.2.1
     helmet: ^6.0.0
-  checksum: 6bf9d6e7baeaffa5622797d9afd47a2ea562f26a84058d8122c6d631847471a7e78ba0ed59813ce738608dce130576a4c1b0838a37a0cb320c39242173f30c8a
+  checksum: d95935035dcfc66cef3ea996bf663e658a81c5bc42e9fa61d135e926714367e50b4e036aafb037d8058ab361c8d08d468e1a053f2fa387198c5a7d088198b897
   languageName: node
   linkType: hard
 
@@ -7662,7 +7662,7 @@ __metadata:
     "@commitlint/config-conventional": ^17.0.3
     "@fastify/circuit-breaker": ^3.0.0
     "@fastify/compress": ^6.1.1
-    "@fastify/helmet": ^10.0.0
+    "@fastify/helmet": ^10.0.1
     "@types/jest": ^29.0.2
     "@types/luxon": ^3.0.0
     "@types/node": ^18.7.18
