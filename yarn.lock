@@ -1934,12 +1934,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ramda@npm:^0.28.15":
-  version: 0.28.15
-  resolution: "@types/ramda@npm:0.28.15"
+"@types/ramda@npm:^0.28.17":
+  version: 0.28.17
+  resolution: "@types/ramda@npm:0.28.17"
   dependencies:
     ts-toolbelt: ^6.15.1
-  checksum: f96576c78a3bfdc8d0675a7c5fb237a56fe76b1d380578f63e59185bd1938c38729d7051d92750e6773bc2ea9c64e5d63bdbd7b95c92f5d400d3d5ce850a6dbd
+  checksum: 02e07ed5af536e5fc2d1fc3b81bebfd43d8b4caee84a579e9b866bb7883c26a6e33d920f4909e4fc6770d2cafe04e87abcca8ddbf991551d6278ffd19376a810
   languageName: node
   linkType: hard
 
@@ -7666,7 +7666,7 @@ __metadata:
     "@types/jest": ^29.0.2
     "@types/luxon": ^3.0.0
     "@types/node": ^18.7.18
-    "@types/ramda": ^0.28.15
+    "@types/ramda": ^0.28.17
     "@types/winston": ^2.4.4
     "@typescript-eslint/eslint-plugin": ^5.38.0
     "@typescript-eslint/parser": ^5.37.0
