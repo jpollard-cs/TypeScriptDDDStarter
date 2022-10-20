@@ -5580,9 +5580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mercurius@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "mercurius@npm:11.0.0"
+"mercurius@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "mercurius@npm:11.1.0"
   dependencies:
     "@fastify/error": ^3.0.0
     "@fastify/static": ^6.0.0
@@ -5602,7 +5602,7 @@ __metadata:
     ws: ^8.2.2
   peerDependencies:
     graphql: ^16.0.0
-  checksum: 6c07c8bd5e05f5298a9af2a7b1f712f20ad79d5f5f0491b6063c1bce5253c7646c42f5e0793e11f3e51f261e4e9333529dd2b9a1ecbbf4b300311b14cefc587d
+  checksum: c2d1fdf0625c6f672936a1215e4157776e04c8cc7dc41751acfe564cb85782df214b823505f357f8c55b72f21ec68cb49c6563fb1b91c936433d45d193902a78
   languageName: node
   linkType: hard
 
@@ -7677,7 +7677,7 @@ __metadata:
     husky: ^8.0.0
     jest: ^29.0.3
     luxon: ^3.0.1
-    mercurius: ^11.0.0
+    mercurius: ^11.1.0
     mercurius-codegen: ^4.0.1
     mongoose: ^6.6.1
     nanoid: ^4.0.0
