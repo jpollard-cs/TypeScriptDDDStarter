@@ -5801,9 +5801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mongoose@npm:^6.6.1":
-  version: 6.6.2
-  resolution: "mongoose@npm:6.6.2"
+"mongoose@npm:^6.6.7":
+  version: 6.6.7
+  resolution: "mongoose@npm:6.6.7"
   dependencies:
     bson: ^4.6.5
     kareem: 2.4.1
@@ -5812,7 +5812,7 @@ __metadata:
     mquery: 4.0.3
     ms: 2.1.3
     sift: 16.0.0
-  checksum: 26062bb8c6243a881bf8fa6761e15ca99a62c0f40c14786b8549349ccdfd111af17217b4c63547b798a98f4057f7ad3fa894bc4a021c56363e7729aaad2d30d1
+  checksum: ef5c8fc510f29b014baf44a8396a29dbfa3d69a5848049413b71a6f00fe6140561a04cb4dbe6caa6ecb9eeceb3da0adfcec1410461e6e54e22eb04d364757179
   languageName: node
   linkType: hard
 
@@ -7679,7 +7679,7 @@ __metadata:
     luxon: ^3.0.1
     mercurius: ^11.0.0
     mercurius-codegen: ^4.0.1
-    mongoose: ^6.6.1
+    mongoose: ^6.6.7
     nanoid: ^4.0.0
     pinst: ^3.0.0
     prettier: ^2.5.1
