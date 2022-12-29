@@ -47,7 +47,7 @@
         "luxon": "^3.0.1",
         "mercurius": "^11.0.0",
         "mercurius-codegen": "^4.0.1",
-        "mongoose": "^6.6.1",
+        "mongoose": "^6.8.2",
         "nanoid": "^4.0.0",
         "ramda": "^0.28.0",
         "winston": "^3.7.2"
