@@ -817,12 +817,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.0.3":
-  version: 17.1.0
-  resolution: "@commitlint/config-conventional@npm:17.1.0"
+"@commitlint/config-conventional@npm:^17.4.0":
+  version: 17.4.0
+  resolution: "@commitlint/config-conventional@npm:17.4.0"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
-  checksum: 8209f6b105ff0cd5239e3c0211be875fa17e02552927979faeba51d3797c8258df9bd1eb064f886e13aedf890d2da2083f6d41727d49d57bcc12520011d723a4
+  checksum: bc161a330c3cc9168798a58321b86ac05f8c28c5f6b521f4f1c43ede04ff75fbc31881700691685a308a327a05ad66397f9b41463403056fc5183eae18a0e9a2
   languageName: node
   linkType: hard
 
@@ -7659,7 +7659,7 @@ __metadata:
   resolution: "typescript-ddd-starter@workspace:."
   dependencies:
     "@commitlint/cli": ^17.0.3
-    "@commitlint/config-conventional": ^17.0.3
+    "@commitlint/config-conventional": ^17.4.0
     "@fastify/circuit-breaker": ^3.0.0
     "@fastify/compress": ^6.1.1
     "@fastify/helmet": ^10.0.0
