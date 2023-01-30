@@ -45,7 +45,7 @@
         "fastify": "^4.8.1",
         "graphql": "^16.6.0",
         "luxon": "^3.0.1",
-        "mercurius": "^11.0.0",
+        "mercurius": "^12.0.0",
         "mercurius-codegen": "^4.0.1",
         "mongoose": "^6.6.1",
         "nanoid": "^4.0.0",
