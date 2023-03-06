@@ -1885,10 +1885,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/luxon@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "@types/luxon@npm:3.0.1"
-  checksum: a81444f9b474ea9b3063ab4cc68b917a2634e38b4e229f86c78c35023a32bf5e8d1044d7c229c011291662c976cb6c4cf109dc3d2077c571790a31779a554178
+"@types/luxon@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@types/luxon@npm:3.2.0"
+  checksum: 051bfbf841c6ce98728df6538342ce4aaddfcf0ec6e8b473e0195dcfc3ba6b1fe4b3ce17f2ba6d25344f41cb70032c1debe96da9e384e5f6e639665c1e6d368c
   languageName: node
   linkType: hard
 
@@ -5453,10 +5453,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.0.1":
-  version: 3.0.4
-  resolution: "luxon@npm:3.0.4"
-  checksum: d0908c3951da2a10ccf23040210ead23b0da5366a9d0954e7d5db3560189a7bd703d8af1e00084f197effc9cd7158d1bddf32886d98a70d59ce9bc3fe88bbce0
+"luxon@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "luxon@npm:3.3.0"
+  checksum: 50cf17a0dc155c3dcacbeae8c0b7e80db425e0ba97b9cbdf12a7fc142d841ff1ab1560919f033af46240ed44e2f70c49f76e3422524c7fc8bb8d81ca47c66187
   languageName: node
   linkType: hard
 
@@ -7664,7 +7664,7 @@ __metadata:
     "@fastify/compress": ^6.1.1
     "@fastify/helmet": ^10.0.0
     "@types/jest": ^29.0.2
-    "@types/luxon": ^3.0.0
+    "@types/luxon": ^3.2.0
     "@types/node": ^18.7.18
     "@types/ramda": ^0.28.15
     "@types/winston": ^2.4.4
@@ -7676,7 +7676,7 @@ __metadata:
     graphql: ^16.6.0
     husky: ^8.0.0
     jest: ^29.0.3
-    luxon: ^3.0.1
+    luxon: ^3.3.0
     mercurius: ^11.0.0
     mercurius-codegen: ^4.0.1
     mongoose: ^6.6.1
